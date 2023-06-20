@@ -1,0 +1,153 @@
+
+
+.navbar{
+    font-size: 1.2rem;
+}
+
+.navbar .container .collapse ul li a:hover{
+    background-color:#f9a912;
+    border-radius: 20px;
+}
+
+.navbar .container .collapse form button{
+    border: 1px solid #5d5d5c;
+    border-radius: 5px;
+}
+
+.navbar .container .collapse form button i,.navbar .container .collapse ul i,.footer .recipes ul i{
+    color: #f9a912;
+}
+
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+  }
+
+.carousel-item h5 {
+ font-size: 1.5rem;
+}
+
+@media screen and (min-width:992px) {
+    .carousel-item h5 {
+        font-size: 2.5rem;
+       }
+}
+
+.all-recipes .container{
+    padding-top: 50px;
+}
+
+.all-recipes .container .card .card-footer ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10px;
+}
+
+
+.all-recipes .container .card img{
+height: 250px;
+transition: transform 0.5s;
+object-fit: cover;
+
+}
+
+.all-recipes .container .card img:hover{
+  transform: scale(95%);
+    }
+
+
+.all-recipes .container .card {
+    height: 400px;
+    }
+
+.all-recipes .container .recipe-title{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+.all-recipes .container .recipe-title .line{
+
+    width: 200px;
+    background-color: #535252;
+    height: 2px;
+    display: inline-block;
+    margin-top: -15px;
+}
+
+.about{
+    color: white;
+    font-size: 1.3rem;
+ 
+}
+
+.about img{
+    text-align: center;
+
+}
+
+.about .container .row .text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+
+.about .container .row .text span{
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.footer {
+    border-top: 2px solid grey;
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+
+.footer  ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer  ul a{
+font-size: 1rem;
+color: white;
+text-decoration: none;
+}
+
+.footer .social-icons ul a{
+    font-size: 1.2rem;
+    color: #f9a912;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
